@@ -31,7 +31,12 @@ Este repositório também segue o formato oficial de plugin marketplace do Claud
 
 | Plugin | Skill | O que faz |
 |---|---|---|
-| `iac` | [`terraform-best-practices`](plugins/iac/skills/terraform-best-practices/SKILL.md) | Cria e audita projetos Terraform seguindo a convenção pessoal do autor: repo central de módulos versionado por tag, repos de recurso nomeados `iac-{provider}-{recurso}`, ambiente via Terraform workspace nativo, e a regra de nunca rodar `apply`/`destroy` sem pedido explícito. |
+| `iac` | [`terraform-best-practices`](plugins/iac/skills/terraform-best-practices/README.md) | Cria e audita projetos Terraform seguindo a convenção pessoal do autor: repo central de módulos versionado por tag, repos de recurso nomeados `iac-{provider}-{recurso}`, ambiente via Terraform workspace nativo, e a regra de nunca rodar `apply`/`destroy` sem pedido explícito. |
+
+Cada skill tem dois arquivos de documentação, com papéis diferentes:
+
+- **`SKILL.md`** — instruções para o agente (o que carrega no contexto quando a skill é usada).
+- **`README.md`** — visão geral para humanos navegando o repo: resumo, comando de instalação e ponteiro pra documentação completa, no modelo usado pelo [skills.sh](https://www.skills.sh) para exibir skills (título, categoria, bullets de capacidade, seção expansível). Toda skill nova neste repo segue esse mesmo modelo.
 
 ## Estrutura
 
