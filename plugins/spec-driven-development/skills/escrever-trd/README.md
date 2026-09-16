@@ -47,7 +47,7 @@ Nenhuma é obrigatória, mas sem elas o enriquecimento não acontece e a entrevi
 ### Skills relacionadas
 
 - **`escrever-prd`** — documenta a feature, não o projeto. Quando um input de PRD traz uma decisão arquitetural durável, ela é roteada para o Modo Decision desta skill. *(disponível neste harness)*
-- **`critical-analysis`** — quando o projeto ainda não tem código, o documento consolidado de uma sessão com a lente de especificação de projeto de desenvolvimento serve como fonte pro TRD inicial. *(disponível neste harness, plugin `uso-geral`)*
+- **`critical-analysis`** — quando o projeto ainda não tem código, o documento consolidado de uma sessão com a lente de especificação de projeto de desenvolvimento serve como fonte pro TRD inicial. *(disponível neste harness, plugin `general-use`)*
 - **`sdd-especificar`, `preparar-execucao`, `implementar-task`, `orquestrar-execucao`, `revisao-documento-tecnico`** — consomem o TRD como contexto técnico global nos passos seguintes do fluxo original. *(ainda não trazidas para este harness)*
 
 ### Posição no fluxo spec-driven

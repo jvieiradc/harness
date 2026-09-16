@@ -26,7 +26,7 @@ Este repositório também segue o formato oficial de plugin marketplace do Claud
 | Plugin | Descrição |
 |---|---|
 | `iac` | Boas práticas de projeto Terraform — estrutura de repositório, nomenclatura, versionamento de módulos e gestão de ambiente, agnóstica de cloud provider (AWS, GCP, Azure) |
-| `uso-geral` | Skills de uso geral, não específicas de um domínio técnico |
+| `general-use` | Skills de uso geral, não específicas de um domínio técnico |
 | `spec-driven-development` | Fluxo spec-driven para software: escrever PRD e TRD/ADR |
 
 ### Skills por plugin
@@ -34,7 +34,7 @@ Este repositório também segue o formato oficial de plugin marketplace do Claud
 | Plugin | Skill | O que faz |
 |---|---|---|
 | `iac` | [`terraform-best-practices`](plugins/iac/skills/terraform-best-practices/README.md) | Cria e audita projetos Terraform seguindo a convenção pessoal do autor: repo central de módulos versionado por tag, repos de recurso nomeados `iac-{provider}-{recurso}`, ambiente via Terraform workspace nativo, e a regra de nunca rodar `apply`/`destroy` sem pedido explícito. |
-| `uso-geral` | [`critical-analysis`](plugins/uso-geral/skills/critical-analysis/README.md) | Modo de maturação de ideias com ceticismo por padrão — questiona premissas, aponta trade-offs e riscos, pergunta em prosa (não por menu), e recomenda a opção mais simples quando duas empatam em qualidade. |
+| `general-use` | [`critical-analysis`](plugins/general-use/skills/critical-analysis/README.md) | Modo de maturação de ideias com ceticismo por padrão — questiona premissas, aponta trade-offs e riscos, pergunta em prosa (não por menu), e recomenda a opção mais simples quando duas empatam em qualidade. |
 | `spec-driven-development` | [`escrever-prd`](plugins/spec-driven-development/skills/escrever-prd/README.md) | Cria e edita PRDs (Product Requirements Documents) em `docs/prds/`, draft-first, com detecção de múltiplas features e grafo de dependência entre elas. |
 | `spec-driven-development` | [`escrever-trd`](plugins/spec-driven-development/skills/escrever-trd/README.md) | Cria e mantém o TRD (`docs/trd.md`) e ADRs (`docs/adrs/`) do projeto — stack, arquitetura, NFRs, dependências externas e decisões técnicas duráveis. |
 

@@ -34,7 +34,7 @@ Nenhuma. A skill trabalha só com arquivos markdown do próprio projeto.
 ### Skills relacionadas
 
 - **`escrever-trd`** — dona do TRD e dos ADRs. Decisão arquitetural durável identificada no input do PRD é roteada para o Modo Decision dela (`docs/adrs/`); o PRD apenas referencia em §8. *(disponível neste harness)*
-- **`critical-analysis`** — madurar a ideia antes de formalizar com `escrever-prd`. *(disponível neste harness, plugin `uso-geral`)*
+- **`critical-analysis`** — madurar a ideia antes de formalizar com `escrever-prd`. *(disponível neste harness, plugin `general-use`)*
 - **`sdd-especificar`, `preparar-execucao`, `revisao-documento-tecnico`, `validar-implementacao`** — os passos seguintes do fluxo original (projetar o SPEC a partir do PRD, revisar antes de executar, fechar o ciclo promovendo o PRD a `concluido`). *(ainda não trazidas para este harness — por ora, a transição de `status` é manual)*
 
 ### Exemplos de uso

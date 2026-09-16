@@ -1,6 +1,6 @@
 # critical-analysis
 
-**Categoria:** uso-geral
+**Categoria:** general-use
 
 ```bash
 npx skills add jvieiradc/harness@critical-analysis --full-depth
