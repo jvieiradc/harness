@@ -159,7 +159,10 @@ O documento também é **o estado da sessão**, não só um registro: é a parti
 ### Localização e nome do arquivo
 
 - Padrão sugerido: `docs/critical-analysis-{slug-do-tema}.md` dentro do projeto ou diretório corrente.
-- **Exceção — contexto que deve carregar sozinho.** Se o objetivo é que uma sessão futura, ao abrir aquele diretório, receba essas decisões automaticamente (não só um registro histórico para consulta manual), nomeie o arquivo `CLAUDE.md` e salve-o junto do diretório que ele descreve — é isso que faz o carregamento automático de contexto funcionar. Pergunte quando não estiver claro qual dos dois cenários é o caso: registro histórico pontual ou contexto vivo de um diretório de trabalho.
+- **Exceção — contexto que deve carregar sozinho.** Se o objetivo é que uma sessão futura, ao abrir aquele diretório, receba essas decisões automaticamente (não só um registro histórico para consulta manual), salve junto do diretório que a análise descreve — mas o nome do arquivo depende do tipo de projeto:
+  - **Projeto pessoal e privado**: `CLAUDE.md` normalmente.
+  - **Projeto público ou corporativo**: `CLAUDE.local.md`, não `CLAUDE.md`. O `CLAUDE.md` do projeto é documentação que acompanha o código publicado/em produção — misturar notas de uma sessão de análise ali polui esse documento pra quem só quer entender o projeto. Antes de salvar, confirme que `.gitignore` exclui `CLAUDE.local.md`; se não excluir, adicione a entrada primeiro.
+  - Pergunte quando não estiver claro se o projeto é pessoal/privado ou público/corporativo, ou se o objetivo é registro histórico pontual em vez de contexto vivo do diretório.
 - Slug em kebab-case, derivado do tema principal.
 - Se não houver diretório óbvio ou o tema não for de projeto, perguntar ao usuário onde salvar antes do Passo 1.
 
