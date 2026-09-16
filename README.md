@@ -25,9 +25,9 @@ Este repositório também segue o formato oficial de plugin marketplace do Claud
 
 | Plugin | Descrição |
 |---|---|
-| `iac` | Boas práticas de projeto Terraform — estrutura de repositório, nomenclatura, versionamento de módulos e gestão de ambiente, agnóstica de cloud provider (AWS, GCP, Azure) |
-| `general-use` | Skills de uso geral, não específicas de um domínio técnico |
-| `spec-driven-development` | Fluxo spec-driven para software: escrever PRD e TRD/ADR |
+| [`iac`](plugins/iac/README.md) | Boas práticas de projeto Terraform — estrutura de repositório, nomenclatura, versionamento de módulos e gestão de ambiente, agnóstica de cloud provider (AWS, GCP, Azure) |
+| [`general-use`](plugins/general-use/README.md) | Skills de uso geral, não específicas de um domínio técnico |
+| [`spec-driven-development`](plugins/spec-driven-development/README.md) | Fluxo spec-driven para software: escrever PRD e TRD/ADR |
 
 ### Skills por plugin
 
