@@ -3,6 +3,7 @@
   "owner": { "name": "Jose Vieira", "email": "jvnetobr@gmail.com" },
   "plugins": [
     { "name": "iac", "source": "./plugins/iac", "description": "Boas práticas de projeto Terraform, agnósticas de cloud provider (AWS, GCP, Azure)" },
-    { "name": "uso-geral", "source": "./plugins/uso-geral", "description": "Skills de uso geral, não específicas de um domínio técnico — maturação de ideias e análise crítica" }
+    { "name": "uso-geral", "source": "./plugins/uso-geral", "description": "Skills de uso geral, não específicas de um domínio técnico — maturação de ideias e análise crítica" },
+    { "name": "spec-driven-development", "source": "./plugins/spec-driven-development", "description": "Fluxo spec-driven para software: escrever PRD e TRD/ADR" }
   ]
 }

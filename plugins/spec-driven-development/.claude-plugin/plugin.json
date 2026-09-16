@@ -1,0 +1,9 @@
+{
+  "name": "spec-driven-development",
+  "version": "1.0.0",
+  "description": "Fluxo spec-driven para software: escrever PRD e TRD/ADR",
+  "author": {
+    "name": "Jose Vieira",
+    "email": "jvnetobr@gmail.com"
+  }
+}
