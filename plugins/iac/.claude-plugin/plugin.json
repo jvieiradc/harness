@@ -1,0 +1,9 @@
+{
+  "name": "iac",
+  "version": "1.0.0",
+  "description": "Boas práticas de projeto Terraform, agnósticas de cloud provider (AWS, GCP, Azure)",
+  "author": {
+    "name": "Jose Vieira",
+    "email": "jvnetobr@gmail.com"
+  }
+}

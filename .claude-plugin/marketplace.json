@@ -1,0 +1,7 @@
+{
+  "name": "jvieiradc-harness",
+  "owner": { "name": "Jose Vieira", "email": "jvnetobr@gmail.com" },
+  "plugins": [
+    { "name": "iac", "source": "./plugins/iac", "description": "Boas práticas de projeto Terraform, agnósticas de cloud provider (AWS, GCP, Azure)" }
+  ]
+}
