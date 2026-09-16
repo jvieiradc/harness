@@ -26,12 +26,14 @@ Este repositório também segue o formato oficial de plugin marketplace do Claud
 | Plugin | Descrição |
 |---|---|
 | `iac` | Boas práticas de projeto Terraform — estrutura de repositório, nomenclatura, versionamento de módulos e gestão de ambiente, agnóstica de cloud provider (AWS, GCP, Azure) |
+| `uso-geral` | Skills de uso geral, não específicas de um domínio técnico |
 
 ### Skills por plugin
 
 | Plugin | Skill | O que faz |
 |---|---|---|
 | `iac` | [`terraform-best-practices`](plugins/iac/skills/terraform-best-practices/README.md) | Cria e audita projetos Terraform seguindo a convenção pessoal do autor: repo central de módulos versionado por tag, repos de recurso nomeados `iac-{provider}-{recurso}`, ambiente via Terraform workspace nativo, e a regra de nunca rodar `apply`/`destroy` sem pedido explícito. |
+| `uso-geral` | [`critical-analysis`](plugins/uso-geral/skills/critical-analysis/README.md) | Modo de maturação de ideias com ceticismo por padrão — questiona premissas, aponta trade-offs e riscos, pergunta em prosa (não por menu), e recomenda a opção mais simples quando duas empatam em qualidade. |
 
 Cada skill tem dois arquivos de documentação, com papéis diferentes:
 
